@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 export default class App extends Component {
   constructor (){
@@ -12,23 +12,23 @@ export default class App extends Component {
   }
   username1=(event)=>{
     console.log('event',event.target.value);
-    this .setState({username:event.target.value})
+    this .setState({username:event.target.value});
   }
   userage=(event)=>{
     console.log('event',event.target.value);
-    this .setState({age:event.target.value})
+    this .setState({age:event.target.value});
   }
   userpassword=(event)=>{
     console.log('event',event.target.value);
-    this .setState({password:event.target.value})
+    this .setState({password:event.target.value});
   }
   useraddress=(event)=>{
     console.log('event',event.target.value);
     this .setState({address:event.target.value})
   }
   submit=(event)=>{
-    event.preventDefault()
-    console.log(this.state)
+    event.preventDefault();
+    console.log(this.state);
   }
   render() {
     return (
